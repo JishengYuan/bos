@@ -15,5 +15,6 @@ public class App {
         HelloAppService service = new HelloAppService();
         HelloApp helloApp = service.getHelloAppPort();
         System.out.println(helloApp.sayHello("Tom"));
+        //修改了文件
     }
 }
